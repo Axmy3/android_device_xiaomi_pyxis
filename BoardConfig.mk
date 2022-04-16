@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+RELAX_USES_LIBRARY_CHECK := true
+
 # Inherit from sdm710-common
 include device/xiaomi/sdm710-common/BoardConfigCommon.mk
 
